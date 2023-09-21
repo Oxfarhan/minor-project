@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .calculator {
+    padding: 10px;
+    height: 530pxpx;
+    width: auto;
+    background-color: rgb(102, 23, 192);
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  
+  .display {
+    background-color: rgb(102, 23, 192);
+    padding: 10px;
+    text-align: right;
+  }
+  
+  .display input {
+    height: 60px;
+    width: 350px;
+    border-radius: 13px;
+    border: none;
+    background-color: #f7f0f0;
+    color: #050505;
+    font-size: 24px;
+    padding: 13px;
+    box-sizing: border-box;
+    text-align: left;
+   
+  }
+  
+  .keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding: 1px;
+  }
+  
+  button {
+    margin: 10px;
+    height: 60px;
+    width: 65px;
+    border-radius: 20px;
+    border: none;
+    font-size: 22px;
+    font-weight: bold;
+    box-shadow: 0 29px 52px rgba(0,0,0,0.40), 0 25px 16px rgba(0,0,0,0.20);
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e7e7e7;
+    
+  }
+  
+  button.operator {
+    background-color: #f57c00;
+  }
+  
+  button.operator:hover {
+    background-color: #df7811;
+  }
+  
+  button.clear {
+    background-color: #f44336;
+  }
+  
+  button.clear:hover {
+    background-color: #d32f2f;
+  }
+  
+  button.equals {
+    background-color: #fa6007;
+  }
+  
+  button.equals:hover {
+    background-color: #eb5f0f;
+  }
+  .clearbtn{
+    background-color: #e00909;
+  }
+  .clearbtn:hover{
+    background-color: #c92020;
+  }
+  
+  button.backspace {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  button.backspace:hover {
+    background-color: #555;
+  }
+  
+  button.percentage {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  button.percentage:hover {
+    background-color: #555;
+  }
+  button.op{
+    background-color:#333;
+    color: #f0f0f0;
+   
+  }
+  button.op:hover{
+    background-color: #555;
+
+  }
+  #op{
+    background-color:#333;
+    color: #f0f0f0;
+  }
+  #op:hover{
+    background-color: #555;
+  }
+  
+  
